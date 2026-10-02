@@ -1,0 +1,12 @@
+run_timestamp,check_name,before,after,status,details
+2026-10-02 12:55:19,Sales row count,50050,50000,PASS,"50,050 raw sales records processed"
+2026-10-02 12:55:19,Duplicate order IDs,50,0,PASS,Duplicate order IDs removed during ETL
+2026-10-02 12:55:19,Missing discount values,100,0,PASS,Missing discount values replaced with 0
+2026-10-02 12:55:19,Invalid quantities,0,0,PASS,Quantity values checked for values <= 0
+2026-10-02 12:55:19,Missing product IDs,0,0,PASS,Product ID completeness check
+2026-10-02 12:55:19,Unmatched product IDs,0,0,PASS,Foreign-key integrity check against product master
+2026-10-02 12:55:19,Missing customer IDs,0,0,PASS,Customer ID completeness check
+2026-10-02 12:55:19,Unmatched customer IDs,0,0,PASS,Foreign-key integrity check against customer master
+2026-10-02 12:55:19,Missing store IDs,0,0,PASS,Store ID completeness check
+2026-10-02 12:55:19,Unmatched store IDs,0,0,PASS,Foreign-key integrity check against store master
+2026-10-02 12:55:21,Negative inventory values,0,0,PASS,Negative stock values clipped to zero

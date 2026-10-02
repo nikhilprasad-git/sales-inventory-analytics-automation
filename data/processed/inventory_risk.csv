@@ -1,0 +1,5 @@
+stock_status,sku_count,inventory_value
+Overstock,181,31717847.75
+Healthy,202,20825072.24
+Reorder,115,3260118.79
+Stockout,2,0.0

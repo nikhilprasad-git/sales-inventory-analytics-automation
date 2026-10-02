@@ -1,0 +1,6 @@
+run_timestamp,query_name,output_file,rows_returned,status
+2026-10-02 12:41:01,monthly_sales,monthly_sales.csv,12,PASS
+2026-10-02 12:41:01,category_performance,category_performance.csv,6,PASS
+2026-10-02 12:41:01,region_performance,region_performance.csv,5,PASS
+2026-10-02 12:41:01,top_products,top_products.csv,500,PASS
+2026-10-02 12:41:01,inventory_risk,inventory_risk.csv,4,PASS
