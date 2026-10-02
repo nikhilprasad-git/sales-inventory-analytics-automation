@@ -138,11 +138,11 @@ The project includes a two-page Power BI dashboard covering:
 
 The repository includes verification material demonstrating the execution of the workflow:
 
-- `screenshots/etl_validation.png`
-- `screenshots/pipeline_execution.png`
-- `screenshots/sql_query_result.png`
-- `screenshots/database_row_count.png`
-- `screenshots/sql_window_function.png`
+- `Screenshots/etl_validation.png`
+- `Screenshots/pipeline_execution.png`
+- `Screenshots/sql_query_result.png`
+- `Screenshots/database_row_count.png`
+- `Screenshots/sql_window_function.png`
 - `data/processed/etl_audit_log.csv`
 - `data/processed/sql_execution_log.csv`
 
